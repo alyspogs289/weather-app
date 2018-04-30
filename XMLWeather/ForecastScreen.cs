@@ -62,19 +62,19 @@ namespace XMLWeather
             {
                 if (d == 1)
                 {
-                    icon1.BackgroundImage = Properties.Resources.rainyicon;
+                    icon1.Image = Properties.Resources.rainyicon;
                 }
                 else if (d == 2)
                 {
-                    icon2.BackgroundImage = Properties.Resources.rainyicon;
+                    icon2.Image = Properties.Resources.rainyicon;
                 }
                 else if (d == 3)
                 {
-                    icon3.BackgroundImage = Properties.Resources.rainyicon;
+                    icon3.Image = Properties.Resources.rainyicon;
                 }
                 else if (d == 4)
                 {
-                    icon4.BackgroundImage = Properties.Resources.rainyicon;
+                    icon4.Image = Properties.Resources.rainyicon;
                 }
 
             }
@@ -82,76 +82,76 @@ namespace XMLWeather
             {
                 if (d == 1)
                 {
-                    icon1.BackgroundImage = Properties.Resources.snowyicon;
+                    icon1.Image = Properties.Resources.snowyicon;
                 }
                 else if (d == 2)
                 {
-                    icon2.BackgroundImage = Properties.Resources.snowyicon;
+                    icon2.Image = Properties.Resources.snowyicon;
                 }
                 else if (d == 3)
                 {
-                    icon3.BackgroundImage = Properties.Resources.snowyicon;
+                    icon3.Image = Properties.Resources.snowyicon;
                 }
                 else if (d == 4)
                 {
-                    icon4.BackgroundImage = Properties.Resources.snowyicon;
+                    icon4.Image = Properties.Resources.snowyicon;
                 }
             }
             else if (n == 800)
             {
                 if (d == 1)
                 {
-                    icon1.BackgroundImage = Properties.Resources.sunnyicon;
+                    icon1.Image = Properties.Resources.sunnyicon;
                 }
                 else if (d == 2)
                 {
-                    icon2.BackgroundImage = Properties.Resources.sunnyicon;
+                    icon2.Image = Properties.Resources.sunnyicon;
                 }
                 else if (d == 3)
                 {
-                    icon3.BackgroundImage = Properties.Resources.sunnyicon;
+                    icon3.Image = Properties.Resources.sunnyicon;
                 }
                 else if (d == 4)
                 {
-                    icon4.BackgroundImage = Properties.Resources.sunnyicon;
+                    icon4.Image = Properties.Resources.sunnyicon;
                 }
             }
             else if (n == 801)
             {
                 if (d == 1)
                 {
-                    icon1.BackgroundImage = Properties.Resources.partlycloudyicon;
+                    icon1.Image = Properties.Resources.partlycloudyicon;
                 }
                 else if (d == 2)
                 {
-                    icon2.BackgroundImage = Properties.Resources.partlycloudyicon;
+                    icon2.Image = Properties.Resources.partlycloudyicon;
                 }
                 else if (d == 3)
                 {
-                    icon3.BackgroundImage = Properties.Resources.partlycloudyicon;
+                    icon3.Image = Properties.Resources.partlycloudyicon;
                 }
                 else if (d == 4)
                 {
-                    icon4.BackgroundImage = Properties.Resources.partlycloudyicon;
+                    icon4.Image = Properties.Resources.partlycloudyicon;
                 }
             }
             else if (802 <= n && n <= 804)
             {
                 if (d == 1)
                 {
-                    icon1.BackgroundImage = Properties.Resources.cloudyicon;
+                    icon1.Image = Properties.Resources.cloudyicon;
                 }
                 else if (d == 2)
                 {
-                    icon2.BackgroundImage = Properties.Resources.cloudyicon;
+                    icon2.Image = Properties.Resources.cloudyicon;
                 }
                 else if (d == 3)
                 {
-                    icon3.BackgroundImage = Properties.Resources.cloudyicon;
+                    icon3.Image = Properties.Resources.cloudyicon;
                 }
                 else if (d == 4)
                 {
-                    icon4.BackgroundImage = Properties.Resources.cloudyicon;
+                    icon4.Image = Properties.Resources.cloudyicon;
                 }
             }
         }

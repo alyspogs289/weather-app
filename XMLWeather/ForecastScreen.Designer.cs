@@ -77,7 +77,7 @@
             // 
             this.forecastLabel.BackColor = System.Drawing.Color.Transparent;
             this.forecastLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.forecastLabel.ForeColor = System.Drawing.Color.White;
+            this.forecastLabel.ForeColor = System.Drawing.Color.Black;
             this.forecastLabel.Location = new System.Drawing.Point(177, 14);
             this.forecastLabel.Name = "forecastLabel";
             this.forecastLabel.Size = new System.Drawing.Size(83, 28);
@@ -88,7 +88,7 @@
             // 
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.ForeColor = System.Drawing.Color.Black;
             this.label3.Location = new System.Drawing.Point(39, 14);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(83, 28);
@@ -98,8 +98,9 @@
             // 
             // label5
             // 
+            this.label5.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.White;
+            this.label5.ForeColor = System.Drawing.Color.Black;
             this.label5.Location = new System.Drawing.Point(156, 24);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(115, 27);
@@ -110,8 +111,8 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
-            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(120)))), ((int)(((byte)(208)))));
+            this.label1.ForeColor = System.Drawing.Color.Black;
             this.label1.Location = new System.Drawing.Point(167, 391);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(18, 13);
@@ -121,8 +122,8 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
-            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(120)))), ((int)(((byte)(208)))));
+            this.label2.ForeColor = System.Drawing.Color.Black;
             this.label2.Location = new System.Drawing.Point(78, 391);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(18, 13);
@@ -132,9 +133,9 @@
             // min4
             // 
             this.min4.AutoSize = true;
-            this.min4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
+            this.min4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(120)))), ((int)(((byte)(208)))));
             this.min4.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.min4.ForeColor = System.Drawing.Color.White;
+            this.min4.ForeColor = System.Drawing.Color.Black;
             this.min4.Location = new System.Drawing.Point(102, 391);
             this.min4.Name = "min4";
             this.min4.Size = new System.Drawing.Size(71, 29);
@@ -144,9 +145,9 @@
             // max4
             // 
             this.max4.AutoSize = true;
-            this.max4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
+            this.max4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(120)))), ((int)(((byte)(208)))));
             this.max4.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.max4.ForeColor = System.Drawing.Color.White;
+            this.max4.ForeColor = System.Drawing.Color.Black;
             this.max4.Location = new System.Drawing.Point(15, 391);
             this.max4.Name = "max4";
             this.max4.Size = new System.Drawing.Size(71, 29);
@@ -155,18 +156,20 @@
             // 
             // icon4
             // 
+            this.icon4.BackColor = System.Drawing.Color.White;
             this.icon4.Location = new System.Drawing.Point(201, 366);
             this.icon4.Name = "icon4";
             this.icon4.Size = new System.Drawing.Size(75, 61);
+            this.icon4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.icon4.TabIndex = 135;
             this.icon4.TabStop = false;
             // 
             // date4
             // 
             this.date4.AutoSize = true;
-            this.date4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
+            this.date4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(120)))), ((int)(((byte)(208)))));
             this.date4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.date4.ForeColor = System.Drawing.Color.White;
+            this.date4.ForeColor = System.Drawing.Color.Black;
             this.date4.Location = new System.Drawing.Point(8, 357);
             this.date4.Name = "date4";
             this.date4.Size = new System.Drawing.Size(39, 18);
@@ -176,8 +179,8 @@
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
-            this.label13.ForeColor = System.Drawing.Color.White;
+            this.label13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(120)))), ((int)(((byte)(208)))));
+            this.label13.ForeColor = System.Drawing.Color.Black;
             this.label13.Location = new System.Drawing.Point(104, 420);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(30, 13);
@@ -187,8 +190,8 @@
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
-            this.label14.ForeColor = System.Drawing.Color.White;
+            this.label14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(120)))), ((int)(((byte)(208)))));
+            this.label14.ForeColor = System.Drawing.Color.Black;
             this.label14.Location = new System.Drawing.Point(17, 420);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(30, 13);
@@ -197,8 +200,8 @@
             // 
             // label15
             // 
-            this.label15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
-            this.label15.ForeColor = System.Drawing.Color.White;
+            this.label15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(120)))), ((int)(((byte)(208)))));
+            this.label15.ForeColor = System.Drawing.Color.Black;
             this.label15.Location = new System.Drawing.Point(8, 352);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(280, 88);
@@ -207,8 +210,8 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
-            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(120)))), ((int)(((byte)(208)))));
+            this.label4.ForeColor = System.Drawing.Color.Black;
             this.label4.Location = new System.Drawing.Point(167, 294);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(18, 13);
@@ -218,8 +221,8 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
-            this.label6.ForeColor = System.Drawing.Color.White;
+            this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(120)))), ((int)(((byte)(208)))));
+            this.label6.ForeColor = System.Drawing.Color.Black;
             this.label6.Location = new System.Drawing.Point(78, 294);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(18, 13);
@@ -229,9 +232,9 @@
             // min3
             // 
             this.min3.AutoSize = true;
-            this.min3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
+            this.min3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(120)))), ((int)(((byte)(208)))));
             this.min3.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.min3.ForeColor = System.Drawing.Color.White;
+            this.min3.ForeColor = System.Drawing.Color.Black;
             this.min3.Location = new System.Drawing.Point(102, 294);
             this.min3.Name = "min3";
             this.min3.Size = new System.Drawing.Size(71, 29);
@@ -241,9 +244,9 @@
             // max3
             // 
             this.max3.AutoSize = true;
-            this.max3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
+            this.max3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(120)))), ((int)(((byte)(208)))));
             this.max3.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.max3.ForeColor = System.Drawing.Color.White;
+            this.max3.ForeColor = System.Drawing.Color.Black;
             this.max3.Location = new System.Drawing.Point(15, 294);
             this.max3.Name = "max3";
             this.max3.Size = new System.Drawing.Size(71, 29);
@@ -252,18 +255,20 @@
             // 
             // icon3
             // 
+            this.icon3.BackColor = System.Drawing.Color.White;
             this.icon3.Location = new System.Drawing.Point(201, 269);
             this.icon3.Name = "icon3";
             this.icon3.Size = new System.Drawing.Size(75, 61);
+            this.icon3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.icon3.TabIndex = 144;
             this.icon3.TabStop = false;
             // 
             // date3
             // 
             this.date3.AutoSize = true;
-            this.date3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
+            this.date3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(120)))), ((int)(((byte)(208)))));
             this.date3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.date3.ForeColor = System.Drawing.Color.White;
+            this.date3.ForeColor = System.Drawing.Color.Black;
             this.date3.Location = new System.Drawing.Point(8, 260);
             this.date3.Name = "date3";
             this.date3.Size = new System.Drawing.Size(39, 18);
@@ -273,8 +278,8 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
-            this.label10.ForeColor = System.Drawing.Color.White;
+            this.label10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(120)))), ((int)(((byte)(208)))));
+            this.label10.ForeColor = System.Drawing.Color.Black;
             this.label10.Location = new System.Drawing.Point(104, 323);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(30, 13);
@@ -284,8 +289,8 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
-            this.label11.ForeColor = System.Drawing.Color.White;
+            this.label11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(120)))), ((int)(((byte)(208)))));
+            this.label11.ForeColor = System.Drawing.Color.Black;
             this.label11.Location = new System.Drawing.Point(17, 323);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(30, 13);
@@ -294,8 +299,8 @@
             // 
             // label12
             // 
-            this.label12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
-            this.label12.ForeColor = System.Drawing.Color.White;
+            this.label12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(120)))), ((int)(((byte)(208)))));
+            this.label12.ForeColor = System.Drawing.Color.Black;
             this.label12.Location = new System.Drawing.Point(8, 255);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(280, 88);
@@ -304,8 +309,8 @@
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
-            this.label16.ForeColor = System.Drawing.Color.White;
+            this.label16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(120)))), ((int)(((byte)(208)))));
+            this.label16.ForeColor = System.Drawing.Color.Black;
             this.label16.Location = new System.Drawing.Point(167, 197);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(18, 13);
@@ -315,8 +320,8 @@
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
-            this.label17.ForeColor = System.Drawing.Color.White;
+            this.label17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(120)))), ((int)(((byte)(208)))));
+            this.label17.ForeColor = System.Drawing.Color.Black;
             this.label17.Location = new System.Drawing.Point(78, 197);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(18, 13);
@@ -326,9 +331,9 @@
             // min2
             // 
             this.min2.AutoSize = true;
-            this.min2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
+            this.min2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(120)))), ((int)(((byte)(208)))));
             this.min2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.min2.ForeColor = System.Drawing.Color.White;
+            this.min2.ForeColor = System.Drawing.Color.Black;
             this.min2.Location = new System.Drawing.Point(102, 197);
             this.min2.Name = "min2";
             this.min2.Size = new System.Drawing.Size(71, 29);
@@ -338,9 +343,9 @@
             // max2
             // 
             this.max2.AutoSize = true;
-            this.max2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
+            this.max2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(120)))), ((int)(((byte)(208)))));
             this.max2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.max2.ForeColor = System.Drawing.Color.White;
+            this.max2.ForeColor = System.Drawing.Color.Black;
             this.max2.Location = new System.Drawing.Point(15, 197);
             this.max2.Name = "max2";
             this.max2.Size = new System.Drawing.Size(71, 29);
@@ -349,18 +354,20 @@
             // 
             // icon2
             // 
+            this.icon2.BackColor = System.Drawing.Color.White;
             this.icon2.Location = new System.Drawing.Point(201, 172);
             this.icon2.Name = "icon2";
             this.icon2.Size = new System.Drawing.Size(75, 61);
+            this.icon2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.icon2.TabIndex = 153;
             this.icon2.TabStop = false;
             // 
             // date2
             // 
             this.date2.AutoSize = true;
-            this.date2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
+            this.date2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(120)))), ((int)(((byte)(208)))));
             this.date2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.date2.ForeColor = System.Drawing.Color.White;
+            this.date2.ForeColor = System.Drawing.Color.Black;
             this.date2.Location = new System.Drawing.Point(8, 163);
             this.date2.Name = "date2";
             this.date2.Size = new System.Drawing.Size(39, 18);
@@ -370,8 +377,8 @@
             // label21
             // 
             this.label21.AutoSize = true;
-            this.label21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
-            this.label21.ForeColor = System.Drawing.Color.White;
+            this.label21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(120)))), ((int)(((byte)(208)))));
+            this.label21.ForeColor = System.Drawing.Color.Black;
             this.label21.Location = new System.Drawing.Point(104, 226);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(30, 13);
@@ -381,8 +388,8 @@
             // label22
             // 
             this.label22.AutoSize = true;
-            this.label22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
-            this.label22.ForeColor = System.Drawing.Color.White;
+            this.label22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(120)))), ((int)(((byte)(208)))));
+            this.label22.ForeColor = System.Drawing.Color.Black;
             this.label22.Location = new System.Drawing.Point(17, 226);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(30, 13);
@@ -391,8 +398,8 @@
             // 
             // label23
             // 
-            this.label23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
-            this.label23.ForeColor = System.Drawing.Color.White;
+            this.label23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(120)))), ((int)(((byte)(208)))));
+            this.label23.ForeColor = System.Drawing.Color.Black;
             this.label23.Location = new System.Drawing.Point(8, 158);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(280, 88);
@@ -401,8 +408,8 @@
             // label24
             // 
             this.label24.AutoSize = true;
-            this.label24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
-            this.label24.ForeColor = System.Drawing.Color.White;
+            this.label24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(120)))), ((int)(((byte)(208)))));
+            this.label24.ForeColor = System.Drawing.Color.Black;
             this.label24.Location = new System.Drawing.Point(167, 99);
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(18, 13);
@@ -412,8 +419,8 @@
             // label25
             // 
             this.label25.AutoSize = true;
-            this.label25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
-            this.label25.ForeColor = System.Drawing.Color.White;
+            this.label25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(120)))), ((int)(((byte)(208)))));
+            this.label25.ForeColor = System.Drawing.Color.Black;
             this.label25.Location = new System.Drawing.Point(78, 99);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(18, 13);
@@ -423,9 +430,9 @@
             // min1
             // 
             this.min1.AutoSize = true;
-            this.min1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
+            this.min1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(120)))), ((int)(((byte)(208)))));
             this.min1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.min1.ForeColor = System.Drawing.Color.White;
+            this.min1.ForeColor = System.Drawing.Color.Black;
             this.min1.Location = new System.Drawing.Point(102, 99);
             this.min1.Name = "min1";
             this.min1.Size = new System.Drawing.Size(71, 29);
@@ -435,9 +442,9 @@
             // max1
             // 
             this.max1.AutoSize = true;
-            this.max1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
+            this.max1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(120)))), ((int)(((byte)(208)))));
             this.max1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.max1.ForeColor = System.Drawing.Color.White;
+            this.max1.ForeColor = System.Drawing.Color.Black;
             this.max1.Location = new System.Drawing.Point(15, 99);
             this.max1.Name = "max1";
             this.max1.Size = new System.Drawing.Size(71, 29);
@@ -446,19 +453,20 @@
             // 
             // icon1
             // 
+            this.icon1.BackColor = System.Drawing.Color.White;
             this.icon1.Location = new System.Drawing.Point(201, 74);
             this.icon1.Name = "icon1";
             this.icon1.Size = new System.Drawing.Size(75, 61);
-            this.icon1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.icon1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.icon1.TabIndex = 162;
             this.icon1.TabStop = false;
             // 
             // date1
             // 
             this.date1.AutoSize = true;
-            this.date1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
+            this.date1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(120)))), ((int)(((byte)(208)))));
             this.date1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.date1.ForeColor = System.Drawing.Color.White;
+            this.date1.ForeColor = System.Drawing.Color.Black;
             this.date1.Location = new System.Drawing.Point(8, 65);
             this.date1.Name = "date1";
             this.date1.Size = new System.Drawing.Size(39, 18);
@@ -468,8 +476,8 @@
             // label29
             // 
             this.label29.AutoSize = true;
-            this.label29.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
-            this.label29.ForeColor = System.Drawing.Color.White;
+            this.label29.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(120)))), ((int)(((byte)(208)))));
+            this.label29.ForeColor = System.Drawing.Color.Black;
             this.label29.Location = new System.Drawing.Point(104, 128);
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(30, 13);
@@ -479,8 +487,8 @@
             // label30
             // 
             this.label30.AutoSize = true;
-            this.label30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
-            this.label30.ForeColor = System.Drawing.Color.White;
+            this.label30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(120)))), ((int)(((byte)(208)))));
+            this.label30.ForeColor = System.Drawing.Color.Black;
             this.label30.Location = new System.Drawing.Point(17, 128);
             this.label30.Name = "label30";
             this.label30.Size = new System.Drawing.Size(30, 13);
@@ -489,8 +497,8 @@
             // 
             // label31
             // 
-            this.label31.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
-            this.label31.ForeColor = System.Drawing.Color.White;
+            this.label31.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(120)))), ((int)(((byte)(208)))));
+            this.label31.ForeColor = System.Drawing.Color.Black;
             this.label31.Location = new System.Drawing.Point(8, 60);
             this.label31.Name = "label31";
             this.label31.Size = new System.Drawing.Size(280, 88);
@@ -500,7 +508,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Black;
+            this.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.Controls.Add(this.label24);
             this.Controls.Add(this.label25);
             this.Controls.Add(this.min1);
